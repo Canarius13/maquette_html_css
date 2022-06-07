@@ -1,0 +1,59 @@
+.colonne-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+
+.colonne-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+
+.colonne-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.colonne-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.colonne-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+
+.colonne-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.colonne-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+.colonne-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.colonne-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+.colonne-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+
+.colonne-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+}
+
+.colonne-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}

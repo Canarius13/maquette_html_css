@@ -1,0 +1,133 @@
+@media only screen and (max-width: 425px) {
+    .logo {
+        position: absolute;
+        right: 0;
+    }
+
+    .mainTitle {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .pressPost {
+        padding: 5rem;
+        max-width: 98rem;
+    }
+}
+
+@media only screen and (min-width: 426px) {
+    .mainIndex {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        flex-shrink: 0;
+        width: 90%;
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    .mainTitle {
+        font-size: 3em;
+    }
+
+    main>h1[class='mainTitle'] {
+        text-align: justify;
+        width: 90%;
+        max-width: 1000px;
+    }
+
+    .mainIndex h3 {
+        margin-left: 25%;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .dropbtn {
+        width: 100px;
+    }
+
+
+    .pressPostImg {
+        min-width: 35rem;
+        max-width: 35rem;
+        transform: translateX(-8rem);
+    }
+}
+
+
+@media only screen and (min-width: 767px) {
+    .navbar {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    #footerContent {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    #footerContent>* {
+        flex-shrink: 0;
+    }
+
+    .contactInfo {
+        flex: 0 0 auto;
+        width: 30%;
+        margin: 30px auto 30px 10%;
+    }
+
+    .aboutFooter {
+        flex: 0 0 auto;
+        width: 30%;
+        margin: 30px 10% 30px auto;
+    }
+
+    #slider {
+        width: 65%;
+    }
+
+    #cardsContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 0 0 auto;
+
+    }
+
+    #mainContact {
+        width: 85%;
+        max-width: 900px;
+    }
+
+
+    #mainContact div {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #mainContact section {
+        display: inline-block;
+        flex: 0 0 auto;
+        width: 42%;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+
+    #mainContact textarea {
+        height: 180px;
+    }
+
+    .middleHr {
+        display: none;
+    }
+
+}
